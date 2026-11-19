@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 echo "===> [2/3] Building React Frontend..."
 cd frontend
-npm install
+npm install --legacy-peer-deps
 npm run build
 cd ..
 
